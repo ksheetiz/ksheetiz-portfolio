@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkksheetiz_portfolio=globalThis.webpackChunkksheetiz_portfolio||[]).push([[903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/ksheetiz/blog","blogTitle":"Blog","authorsListPath":"/ksheetiz/blog/authors"}')}}]);

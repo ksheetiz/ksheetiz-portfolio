@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkksheetiz_portfolio=globalThis.webpackChunkksheetiz_portfolio||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent Posts","items":[{"title":"How I went from 400MB weather files to a few KBs","permalink":"/ksheetiz/blog/zarr-weather-data","unlisted":false,"date":"2025-02-22T00:00:00.000Z"}]}')}}]);
