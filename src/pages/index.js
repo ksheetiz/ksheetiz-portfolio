@@ -5,7 +5,7 @@ import styles from './index.module.css';
 const stats = [
   { label: 'Questions leetcode', value: '268' },
   { label: 'codeforces rating', value: '900' },
-  { label: 'read papers', value: '3' },
+  { label: 'read papers', value: '2' },
   { label: 'projects', value: '—' },
 ];
 
