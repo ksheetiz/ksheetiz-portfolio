@@ -22,7 +22,7 @@
     "category": "Data Structures",
     "items": [
       {
-        "title": "Bloom Paradon - When not to use a Bloom Filter",
+        "title": "Bloom Paradox - When not to use a Bloom Filter",
         "source": "Ori Rottenstreich and Isaac Keslassy",
         "tags": ["bloom filters", "probabilistic", "hashing"],
         "url": "https://www.icloud.com/iclouddrive/05cEZ_kuVabBxFrml2_mC0BIw#The_Bloom_Paradox_-_When_not_to_use_a_Bloom_Filter",
