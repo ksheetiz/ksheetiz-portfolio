@@ -12,7 +12,7 @@ const config = {
   },
 
   url: 'https://ksheetiz.github.io',
-  baseUrl: '/ksheetiz/',
+  baseUrl: '/ksheetiz-portfolio/',
 
   organizationName: 'ksheetiz',
   projectName: 'ksheetiz-portfolio',
