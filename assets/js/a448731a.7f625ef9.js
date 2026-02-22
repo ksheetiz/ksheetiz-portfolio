@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkksheetiz_portfolio=globalThis.webpackChunkksheetiz_portfolio||[]).push([[260],{8523(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ksheetiz/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
