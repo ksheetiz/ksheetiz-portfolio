@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ksheetiz.github.io/ksheetiz-portfolio/blog"/>
     <subtitle>Ksheetiz Agrahari Blog</subtitle>
-    <icon>https://ksheetiz.github.io/ksheetiz-portfolio/img/favicon.ico</icon>
+    <icon>https://ksheetiz.github.io/ksheetiz-portfolio/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[How I went from 400MB weather files to a few KBs]]></title>
         <id>https://ksheetiz.github.io/ksheetiz-portfolio/blog/zarr-weather-data</id>
