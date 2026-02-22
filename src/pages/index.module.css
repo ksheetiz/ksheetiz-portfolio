@@ -1,0 +1,287 @@
+.hero {
+  padding: 5rem 0 4rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.4rem;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+[data-theme='dark'] .tagline {
+  color: #777;
+}
+
+.links {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.link {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+[data-theme='dark'] .link {
+  color: #888;
+  border-bottom-color: #333;
+}
+
+.link:hover {
+  color: #000;
+  border-bottom-color: #000;
+  text-decoration: none;
+  opacity: 1;
+}
+
+[data-theme='dark'] .link:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ─── Stats ──────────────────────────────────────────── */
+
+.statsRow {
+  display: flex;
+  gap: 0;
+  margin-bottom: 3rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .statsRow {
+  border-color: #1e1e1e;
+}
+
+.statItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  border-right: 1px solid #e8e8e8;
+  gap: 0.25rem;
+}
+
+[data-theme='dark'] .statItem {
+  border-right-color: #1e1e1e;
+}
+
+.statItem:last-child {
+  border-right: none;
+}
+
+.statValue {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+[data-theme='dark'] .statValue {
+  color: #e5e5e5;
+}
+
+.statLabel {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: #999;
+  letter-spacing: 0.04em;
+}
+
+/* ─── Currently ──────────────────────────────────────── */
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.currentItem {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .currentItem {
+  border-bottom-color: #1a1a1a;
+}
+
+.currentItem:first-of-type {
+  border-top: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .currentItem:first-of-type {
+  border-top-color: #1a1a1a;
+}
+
+.currentType {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: #999;
+  text-transform: uppercase;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.currentText {
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+}
+
+.currentItem {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.currentItem:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.currentArrow {
+  font-size: 0.75rem;
+  color: #bbb;
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+
+[data-theme='dark'] .currentArrow {
+  color: #444;
+}
+
+.currentItem:hover .currentArrow {
+  color: #555;
+}
+
+[data-theme='dark'] .currentItem:hover .currentArrow {
+  color: #aaa;
+}
+
+[data-theme='dark'] .currentText {
+  color: #ccc;
+}
+
+/* ─── Cards ──────────────────────────────────────────── */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: inherit;
+}
+
+[data-theme='dark'] .card {
+  border-bottom-color: #1a1a1a;
+}
+
+.card:first-of-type {
+  border-top: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .card:first-of-type {
+  border-top-color: #1a1a1a;
+}
+
+.card:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.cardTitle {
+  font-size: 0.88rem;
+  font-weight: 300;
+  color: #222;
+}
+
+[data-theme='dark'] .cardTitle {
+  color: #ddd;
+}
+
+.cardMeta {
+  font-size: 0.75rem;
+  color: #999;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+/* ─── Mobile ─────────────────────────────────────────── */
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .statsRow {
+    flex-wrap: wrap;
+  }
+
+  .statItem {
+    flex: 1 1 45%;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  [data-theme='dark'] .statItem {
+    border-bottom-color: #1e1e1e;
+  }
+
+  .currentItem {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .currentType {
+    min-width: unset;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .cardMeta {
+    margin-left: 0;
+  }
+}

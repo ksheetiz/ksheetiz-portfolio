@@ -1,0 +1,52 @@
+[
+  {
+    "category": "DSA",
+    "items": [
+      {
+        "title": "Dynamic Programming Patterns",
+        "source": "LeetCode Discuss",
+        "tags": ["dp", "patterns", "competitive"],
+        "url": "https://leetcode.com/discuss/study-guide/4988261/dynamic-programming-patterns"
+      }
+    ]
+  },
+  {
+    "category": "System Design",
+    "items": [
+      {
+        "title": "How Uber Scales Their Real-time Market Platform",
+        "source": "High Scalability",
+        "tags": ["uber", "distributed systems", "geospatial"],
+        "url": "https://highscalability.com/how-uber-scales-their-real-time-market-platform/"
+      },
+      {
+        "title": "Build AI Agents on Cloudflare",
+        "source": "Cloudflare Blog",
+        "tags": ["ai", "agents", "cloudflare", "edge"],
+        "url": "https://blog.cloudflare.com/build-ai-agents-on-cloudflare/"
+      }
+    ]
+  },
+  {
+    "category": "Languages & Internals",
+    "items": [
+      {
+        "title": "The Rust Programming Language — Guessing Game Tutorial",
+        "source": "The Rust Book",
+        "tags": ["rust", "beginner", "tutorial"],
+        "url": "https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html"
+      }
+    ]
+  },
+  {
+    "category": "Operating Systems",
+    "items": [
+      {
+        "title": "Operating Systems: Three Easy Pieces",
+        "source": "OSTEP — Remzi & Andrea Arpaci-Dusseau",
+        "tags": ["os", "fundamentals"],
+        "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/#book-chapters"
+      }
+    ]
+  }
+]

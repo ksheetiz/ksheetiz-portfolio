@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Distributed Systems",
+    "items": [
+      {
+        "title": "Amazon DynamoDB: AScalable, Predictably Performant, and Fully Managed NoSQLDatabase Service",
+        "source": "Amazon / AWS",
+        "tags": ["distributed systems", "key-value store", "consistency"],
+        "url": "https://www.icloud.com/iclouddrive/012nOi8-oftP8LAVh7nJkSBNg#Amazon_DynamoDB%5F_A_scalable%2C_predictably_performant%2C_and_fully_managed_NoSQL_database_service",
+        "note": "This one changed how I think about consistency. The idea that availability can be prioritized over consistency in certain systems — and that eventual consistency is a valid engineering choice — was eye-opening. The section on vector clocks and conflict resolution is dense but worth it."
+      },
+      {
+        "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+        "source": "AWS",
+        "tags": ["virtualization", "serverless", "microvm"],
+        "url": "https://www.icloud.com/iclouddrive/020BDakzEVXSOImtq6t4XKdRA#Firecracker%5F_Lightweight_virtualization_for_serverless_applications",
+        "note": "Fascinating look at how AWS built microVMs that boot in under 125ms. The core insight is that you can strip a VM down to just what serverless workloads need and get near-container speed with VM-level isolation."
+      }
+    ]
+  },
+  {
+    "category": "Data Structures",
+    "items": [
+      {
+        "title": "Bloom Paradon - When not to use a Bloom Filter",
+        "source": "Ori Rottenstreich and Isaac Keslassy",
+        "tags": ["bloom filters", "probabilistic", "hashing"],
+        "url": "https://www.icloud.com/iclouddrive/05cEZ_kuVabBxFrml2_mC0BIw#The_Bloom_Paradox_-_When_not_to_use_a_Bloom_Filter",
+        "note": "The paper that introduced Bloom Filters. What clicked for me was the asymmetry — a Bloom Filter can tell you definitely no, but only probably yes. That framing made the whole thing make sense. Came across this while studying system design and now I see Bloom Filters everywhere."
+      }
+    ]
+  }
+]

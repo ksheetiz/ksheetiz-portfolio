@@ -1,0 +1,19 @@
+zarr:
+  label: Zarr
+  description: Zarr array storage format
+
+geospatial:
+  label: Geospatial
+  description: Geospatial data and tools
+
+weather:
+  label: Weather
+  description: Weather data and forecasting
+
+python:
+  label: Python
+  description: Python programming language
+
+data-engineering:
+  label: Data Engineering
+  description: Data pipelines and engineering

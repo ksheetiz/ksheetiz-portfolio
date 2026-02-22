@@ -1,0 +1,270 @@
+/* ─── Layout ─────────────────────────────────────────── */
+
+.layout {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5rem 2rem 4rem;
+  gap: 3rem;
+}
+
+/* ─── Sidebar ────────────────────────────────────────── */
+
+.sidebar {
+  width: 160px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+}
+
+.sidebarTitle {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.75rem;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.sidebarItem {
+  background: none;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #777;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  border-radius: 2px;
+  transition: color 0.15s, background 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.sidebarItem:hover {
+  color: #000;
+  background: #f5f5f5;
+}
+
+[data-theme='dark'] .sidebarItem {
+  color: #666;
+}
+
+[data-theme='dark'] .sidebarItem:hover {
+  color: #fff;
+  background: #1a1a1a;
+}
+
+.sidebarItemActive {
+  color: #000 !important;
+  font-weight: 500;
+  background: #f0f0f0;
+}
+
+[data-theme='dark'] .sidebarItemActive {
+  color: #fff !important;
+  background: #1e1e1e;
+}
+
+/* ─── Main ───────────────────────────────────────────── */
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ─── Group ──────────────────────────────────────────── */
+
+.group {
+  margin-bottom: 2.5rem;
+}
+
+.category {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.75rem;
+}
+
+/* ─── Item ───────────────────────────────────────────── */
+
+.item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .item {
+  border-bottom-color: #1a1a1a;
+}
+
+.item:first-of-type {
+  border-top: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .item:first-of-type {
+  border-top-color: #1a1a1a;
+}
+
+.itemHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.itemLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #222;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+[data-theme='dark'] .itemTitle {
+  color: #ddd;
+}
+
+.itemTitle:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.arrow {
+  font-size: 0.7rem;
+  color: #bbb;
+}
+
+[data-theme='dark'] .arrow {
+  color: #555;
+}
+
+.itemSource {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #999;
+}
+
+/* ─── Tags ───────────────────────────────────────────── */
+
+.tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.tag {
+  font-size: 0.65rem;
+  font-weight: 300;
+  color: #999;
+  border: 1px solid #e0e0e0;
+  padding: 0.1rem 0.45rem;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+}
+
+[data-theme='dark'] .tag {
+  color: #666;
+  border-color: #2a2a2a;
+}
+
+/* ─── Note ───────────────────────────────────────────── */
+
+.note {
+  font-size: 0.82rem;
+  font-weight: 300;
+  color: #666;
+  line-height: 1.75;
+  margin: 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid #e8e8e8;
+}
+
+[data-theme='dark'] .note {
+  color: #777;
+  border-left-color: #2a2a2a;
+}
+
+/* ─── Mobile ─────────────────────────────────────────── */
+
+@media screen and (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+    padding: 3rem 1.5rem 2rem;
+    gap: 2rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 1rem;
+  }
+
+  [data-theme='dark'] .sidebar {
+    border-bottom-color: #1e1e1e;
+  }
+
+  .sidebarList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .sidebarItem {
+    width: auto;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .itemHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .tags {
+    justify-content: flex-start;
+  }
+}

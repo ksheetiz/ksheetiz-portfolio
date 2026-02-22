@@ -1,0 +1,178 @@
+.wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 5rem 0 4rem;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ─── List ───────────────────────────────────────────── */
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .item {
+  border-bottom-color: #1a1a1a;
+}
+
+.item:first-of-type {
+  border-top: 1px solid #f0f0f0;
+}
+
+[data-theme='dark'] .item:first-of-type {
+  border-top-color: #1a1a1a;
+}
+
+.itemTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.itemLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.itemTitle {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #111;
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] .itemTitle {
+  color: #e5e5e5;
+}
+
+.itemRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+/* ─── Status ─────────────────────────────────────────── */
+
+.status {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ─── Links ──────────────────────────────────────────── */
+
+.links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.link {
+  font-size: 0.78rem;
+  font-weight: 300;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+[data-theme='dark'] .link {
+  color: #888;
+}
+
+.link:hover {
+  color: #000;
+  opacity: 1;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .link:hover {
+  color: #fff;
+}
+
+/* ─── Tags ───────────────────────────────────────────── */
+
+.tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 0.65rem;
+  font-weight: 300;
+  color: #999;
+  border: 1px solid #e0e0e0;
+  padding: 0.1rem 0.45rem;
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+}
+
+[data-theme='dark'] .tag {
+  color: #666;
+  border-color: #2a2a2a;
+}
+
+/* ─── Description ────────────────────────────────────── */
+
+.description {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #555;
+  line-height: 1.75;
+  margin: 0;
+}
+
+[data-theme='dark'] .description {
+  color: #888;
+}
+
+/* ─── Mobile ─────────────────────────────────────────── */
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .itemTop {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .itemRight {
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+}

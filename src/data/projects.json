@@ -1,0 +1,10 @@
+[
+  {
+    "title": "VsCode DeepSeek Extension",
+    "description": "A VSCode extension to run and manage DeepSeek ML models locally within the editor. Supports live monitoring, debugging tools, and custom model configuration without complex setup.",
+    "tags": ["typescript", "vscode", "deepseek", "ml"],
+    "github": "https://github.com/ksheetiz/VsCode-DeepSeek-Extension",
+    "live": null,
+    "status": "completed"
+  }
+]
