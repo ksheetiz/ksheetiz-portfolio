@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkksheetiz_portfolio=globalThis.webpackChunkksheetiz_portfolio||[]).push([[947],{6600(e){e.exports=JSON.parse('{"authors":[{"name":"Ksheetiz Agrahari","title":"Software Engineer","url":"https://github.com/ksheetiz","imageURL":"https://github.com/ksheetiz.png","key":"ksheetiz","page":null,"count":1}]}')}}]);
