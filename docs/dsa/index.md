@@ -12,4 +12,4 @@ I've solved 268 problems on LeetCode and have a Codeforces rating of 900. All my
 
 ## Topics
 
-- [Bit Manipulation](/dsa/bit-manipulation/calculate-the-maximum)
+- [Bit Manipulation](/dsa/Bitwise-Operations-and-Bitmasks/calculate-the-maximum)
