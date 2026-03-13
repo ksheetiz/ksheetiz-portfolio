@@ -12,7 +12,7 @@ const stats = [
 const currently = [
   { type: 'building', text: 'Geospatial weather forecast data pipelines using Zarr format', link: 'https://zarr.readthedocs.io' },
   { type: 'reading', text: 'The Lost Symbol — Dan Brown', link: 'https://www.amazon.com/Lost-Symbol-Robert-Langdon/dp/0385533470' },
-  { type: 'playing', text: 'Metal Gear Solid Delta: Snake Eater — PS5', link: 'https://www.konami.com/games/mgs3/' },
+  { type: 'playing', text: 'Resident Evil Requiem — PS5', link: '' },
   { type: 'listening', text: 'Timeless — The Weeknd', link: 'https://open.spotify.com/track/4vUmTMuQqjdnvlZmAH61Qk' },
 ];
 
