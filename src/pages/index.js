@@ -25,7 +25,7 @@ const recentDSA = [
 ];
 
 const recentPapers = [
-  { title: 'Bloom Paradon - When not to use a Bloom Filter', slug: '/papershelf', date: 'Early 2025' },
+  { title: 'Bloom Paradox - When not to use a Bloom Filter', slug: '/papershelf', date: 'Early 2025' },
 ];
 
 export default function Home() {
