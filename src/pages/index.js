@@ -21,7 +21,7 @@ const recentPosts = [
 ];
 
 const recentDSA = [
-  //{ title: 'Two Sum', slug: '/dsa/arrays/two-sum', platform: 'LeetCode #1 · Easy' },
+  {title: 'Non-Decreasing Subarrays', slug: '/dsa/arrays/nondecreasing-subarrays', platform: 'Codeforces' },
 ];
 
 const recentPapers = [
@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className={styles.links}>
           <Link className={styles.link} to="/blog">blog</Link>
-          <Link className={styles.link} to="/dsa">dsa</Link>
+          <Link className={styles.link} to="/dsa/bit-manipulation/calculate-the-maximum">dsa</Link>
           <Link className={styles.link} to="/papershelf">papershelf</Link>
           <Link className={styles.link} to="/projects">projects</Link>
           <Link className={styles.link} to="/about">about</Link>
